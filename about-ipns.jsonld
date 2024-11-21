@@ -1,0 +1,32 @@
+{
+    "@context": ["https://www.w3.org/ns/activitystreams", { "@language": "en" }],
+    "type": "Person",
+    "id": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
+    "url": [{
+      "type": "Link",
+      "rel": "alternate",
+      "mediaType": "application/activity+json; profile=\"https://www.w3.org/ns/activitystreams\"",
+      "href": "https://staticpub.mauve.moe/about.jsonld"
+    }],
+    "outbox": "ipns://staticpub.mauve.moe/outbox-ipns.jsonld",
+    "inbox": "https://social.distributed.press/v1/@mauve@staticpub.mauve.moe/inbox",
+    "following": "ipns://staticpub.mauve.moe/following-ipns.jsonld",
+    "followers": "ipns://staticpub.mauve.moe/followers-ipns.jsonld",
+    "preferredUsername": "mauve",
+    "name": "Your Name",
+    "summary": "This is your static site profile. You can find the source code at https://github.com/hyphacoop/staticpub.distributed.press/",
+    "icon": [{
+      "type": "Image",
+      "mediaType": "image/png",
+      "name": "Your Site Logo",
+      "url": "ipns://staticpub.mauve.moe/profile.png"
+    }],
+    "publicKey": {
+      "@context": "https://w3id.org/security/v1",
+      "@type": "Key",
+      "id": "ipns://staticpub.mauve.moe/about-ipns.jsonld#main-key",
+      "owner": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nYOUR_PUBLIC_KEY_HERE\n-----END PUBLIC KEY-----\n"
+    }
+}
+  
