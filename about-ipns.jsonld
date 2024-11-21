@@ -13,7 +13,7 @@
     "following": "ipns://staticpub.mauve.moe/following-ipns.jsonld",
     "followers": "ipns://staticpub.mauve.moe/followers-ipns.jsonld",
     "preferredUsername": "mauve",
-    "name": "Your Name",
+    "name": "Mauve",
     "summary": "This is your static site profile. You can find the source code at https://github.com/hyphacoop/staticpub.distributed.press/",
     "icon": [{
       "type": "Image",
