@@ -1,0 +1,28 @@
+{
+    "@context": "https://www.w3.org/ns/activitystreams",
+    "id": "https://staticpub.mauve.moe/outbox-ipns.jsonld",
+    "url": [{
+        "type": "Link",
+        "rel": "alternate",
+        "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
+        "href": "ipns://staticpub.mauve.moe/outbox-ipns.jsonld"
+    }],
+    "type": "OrderedCollection",
+    "totalItems": 1,
+    "orderedItems": [
+        {
+            "@context": "https://www.w3.org/ns/activitystreams",
+            "type": "Create",
+            "actor": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
+            "published": "2023-06-29T17:29:45Z",
+            "to": [
+                "https://www.w3.org/ns/activitystreams#Public"
+            ],
+            "cc": [
+                "ipns://staticpub.mauve.moe/followers-ipns.jsonld"
+            ],
+            "object": "ipns://staticpub.mauve.moe/posts/helloworld-ipns.jsonld"
+        }
+    ]
+}
+  
