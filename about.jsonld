@@ -1,0 +1,32 @@
+{
+    "@context": ["https://www.w3.org/ns/activitystreams", { "@language": "en" }],
+    "type": "Person",
+    "id": "https://staticpub.distributed.press/about.jsonld",
+    "url": [{
+      "type": "Link",
+      "rel": "alternate",
+      "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
+      "href": "ipns://staticpub.distributed.press/about-ipns.jsonld"
+    }],
+    "outbox": "https://staticpub.distributed.press/outbox.jsonld",
+    "inbox": "https://social.distributed.press/v1/@dp@staticpub.distributed.press/inbox",
+    "following": "https://staticpub.distributed.press/following.jsonld",
+    "followers": "https://staticpub.distributed.press/followers.jsonld",
+    "preferredUsername": "dp",
+    "name": "Distributed Press",
+    "summary": "This is your static site profile. You can find the source code at https://github.com/hyphacoop/staticpub.distributed.press/",
+    "icon": [{
+      "type": "Image",
+      "mediaType": "image/png",
+      "name": "Your Site Logo",
+      "url": "https://staticpub.distributed.press/profile.png"
+    }],
+    "publicKey": {
+      "@context": "https://w3id.org/security/v1",
+      "@type": "Key",
+      "id": "https://staticpub.distributed.press/about.jsonld#main-key",
+      "owner": "https://staticpub.distributed.press/about.jsonld",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nYOUR_PUBLIC_KEY_HERE\n-----END PUBLIC KEY-----\n"
+    }
+}
+  

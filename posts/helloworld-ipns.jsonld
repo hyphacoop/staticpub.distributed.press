@@ -1,0 +1,27 @@
+{
+    "@context": "https://www.w3.org/ns/activitystreams",
+    "id": "ipns://staticpub.distributed.press/helloworld-ipns.jsonld",
+    "url": [{
+      "type": "Link",
+      "rel": "alternate",
+      "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
+      "href": "https://staticpub.distributed.press/posts/helloworld.jsonld"
+    }],
+    "type": "Note",
+    "summary": null,
+    "published": "2023-06-29T17:29:45Z",
+    "url": "ipns://staticpub.distributed.press/helloworld",
+    "attributedTo": "ipns://staticpub.distributed.press/about-ipns.jsonld",
+    "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+    ],
+    "cc": [],
+    "sensitive": false,
+    "content": "Hello, Fediverse! This is my first post.",
+    "contentMap": {
+        "en": "Hello, Fediverse! This is my first post."
+    },
+    "attachment": [],
+    "tag": [],
+    "replies":  "ipns://staticpub.distributed.press/helloworld-replies-ipns.jsonld"
+  }
