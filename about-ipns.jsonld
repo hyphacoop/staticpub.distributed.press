@@ -1,31 +1,31 @@
 {
     "@context": ["https://www.w3.org/ns/activitystreams", { "@language": "en" }],
     "type": "Person",
-    "id": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
+    "id": "ipns://staticpub.distributed.press/about-ipns.jsonld",
     "url": [{
       "type": "Link",
       "rel": "alternate",
       "mediaType": "application/activity+json; profile=\"https://www.w3.org/ns/activitystreams\"",
-      "href": "https://staticpub.mauve.moe/about.jsonld"
+      "href": "https://staticpub.distributed.press/about.jsonld"
     }],
-    "outbox": "ipns://staticpub.mauve.moe/outbox-ipns.jsonld",
-    "inbox": "https://social.distributed.press/v1/@mauve@staticpub.mauve.moe/inbox",
-    "following": "ipns://staticpub.mauve.moe/following-ipns.jsonld",
-    "followers": "ipns://staticpub.mauve.moe/followers-ipns.jsonld",
-    "preferredUsername": "mauve",
-    "name": "Mauve",
+    "outbox": "ipns://staticpub.distributed.press/outbox-ipns.jsonld",
+    "inbox": "https://social.distributed.press/v1/@dp@staticpub.distributed.press/inbox",
+    "following": "ipns://staticpub.distributed.press/following-ipns.jsonld",
+    "followers": "ipns://staticpub.distributed.press/followers-ipns.jsonld",
+    "preferredUsername": "dp",
+    "name": "Distributed Press",
     "summary": "This is your static site profile. You can find the source code at https://github.com/hyphacoop/staticpub.distributed.press/",
     "icon": [{
       "type": "Image",
       "mediaType": "image/png",
       "name": "Your Site Logo",
-      "url": "ipns://staticpub.mauve.moe/profile.png"
+      "url": "ipns://staticpub.distributed.press/profile.png"
     }],
     "publicKey": {
       "@context": "https://w3id.org/security/v1",
       "@type": "Key",
-      "id": "ipns://staticpub.mauve.moe/about-ipns.jsonld#main-key",
-      "owner": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
+      "id": "ipns://staticpub.distributed.press/about-ipns.jsonld#main-key",
+      "owner": "ipns://staticpub.distributed.press/about-ipns.jsonld",
       "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nYOUR_PUBLIC_KEY_HERE\n-----END PUBLIC KEY-----\n"
     }
 }

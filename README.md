@@ -4,18 +4,18 @@ Template repo for ActivityPub enabled static websites that use the Distributed P
 
 ## Instructions
 
-To replace all instances of `staticpub.mauve.moe` with `yourdomain.com`, `mauve` with `username`, and `"Mauve"` with `"Your Name"`, you can use the following sed commands:
+To replace all instances of `staticpub.distributed.press` with `yourdomain.com`, `dp` with `username`, and `"Distributed Press"` with `"Your Name"`, you can use the following sed commands:
 
 ### For Linux Users:
 
 ```bash
-find . -type f -exec sed -i 's/staticpub\.mauve\.moe/yourdomain\.com/g; s/mauve/username/g; s/"Mauve"/"Your Name"/g' {} +
+find . -type f -exec sed -i 's/staticpub\.dp\.moe/yourdomain\.com/g; s/dp/username/g; s/"Distributed Press"/"Your Name"/g' {} +
 ```
 
 ### For macOS Users:
 
 ```bash
-find . -type f -exec sed -i '' 's/staticpub\.mauve\.moe/yourdomain\.com/g; s/mauve/username/g; s/"Mauve"/"Your Name"/g' {} +
+find . -type f -exec sed -i '' 's/staticpub\.dp\.moe/yourdomain\.com/g; s/dp/username/g; s/"Distributed Press"/"Your Name"/g' {} +
 ```
 
 Make sure to update the `publicKeyPem` field in the following files with your actual public key from the `.dprc` configuration file:
@@ -35,8 +35,8 @@ Make sure to update the `publicKeyPem` field in the following files with your ac
     "publicKey": {
       "@context": "https://w3id.org/security/v1",
       "@type": "Key",
-      "id": "https://staticpub.mauve.moe/about.jsonld#main-key",
-      "owner": "https://staticpub.mauve.moe/about.jsonld",
+      "id": "https://staticpub.distributed.press/about.jsonld#main-key",
+      "owner": "https://staticpub.distributed.press/about.jsonld",
       "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nYOUR_PUBLIC_KEY_HERE\n-----END PUBLIC KEY-----\n"
     }
 ```

@@ -1,30 +1,30 @@
 {
     "@context": "https://www.w3.org/ns/activitystreams",
-    "id": "https://staticpub.mauve.moe/posts/helloworld.jsonld",
+    "id": "https://staticpub.distributed.press/posts/helloworld.jsonld",
     "url": [{
       "type": "Link",
       "rel": "alternate",
       "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
-      "href": "ipns://staticpub.mauve.moe/helloworld-ipns.jsonld"
+      "href": "ipns://staticpub.distributed.press/helloworld-ipns.jsonld"
     }],
     "type": "Note",
     "summary": null,
     "published": "2023-06-29T17:29:45Z",
-    "url": "https://staticpub.mauve.moe/helloworld",
-    "attributedTo": "https://staticpub.mauve.moe/about.jsonld",
+    "url": "https://staticpub.distributed.press/helloworld",
+    "attributedTo": "https://staticpub.distributed.press/about.jsonld",
     "to": [
         "https://www.w3.org/ns/activitystreams#Public"
     ],
     "cc": [],
     "sensitive": false,
-    "atomUri": "https://staticpub.mauve.moe/helloworld",
+    "atomUri": "https://staticpub.distributed.press/helloworld",
     "inReplyToAtomUri": null,
-    "conversation": "tag:staticpub.mauve.moe,2023-06-29:objectId=294618:objectType=Conversation",
+    "conversation": "tag:staticpub.distributed.press,2023-06-29:objectId=294618:objectType=Conversation",
     "content": "Hello, Fediverse! This is my first post.",
     "contentMap": {
         "en": "Hello, Fediverse! This is my first post."
     },
     "attachment": [],
     "tag": [],
-    "replies":  "https://staticpub.mauve.moe/helloworld-replies.jsonld"
+    "replies":  "https://staticpub.distributed.press/helloworld-replies.jsonld"
   }
