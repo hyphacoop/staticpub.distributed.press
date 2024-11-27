@@ -43,4 +43,5 @@ Make sure to update the `publicKeyPem` field in the following files with your ac
 
 Replace `YOUR_PUBLIC_KEY_HERE` with your actual public key from `.dprc`.
 
-Learn more at https://docs.distributed.press/dp-cli/
+### Learn More
+For detailed instructions on setting up the Distributed Press CLI, visit the [Distributed Press CLI documentation](https://docs.distributed.press/dp-cli/).
