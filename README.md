@@ -9,13 +9,13 @@ To replace all instances of `staticpub.distributed.press` with `yourdomain.com`,
 ### For Linux Users:
 
 ```bash
-find . -type f -exec sed -i 's/staticpub\.dp\.moe/yourdomain\.com/g; s/dp/username/g; s/"Distributed Press"/"Your Name"/g' {} +
+find . -type f -exec sed -i 's/staticpub\.distributed\.press/yourdomain\.com/g; s/dp/username/g; s/"Distributed Press"/"Your Name"/g' {} +
 ```
 
 ### For macOS Users:
 
 ```bash
-find . -type f -exec sed -i '' 's/staticpub\.dp\.moe/yourdomain\.com/g; s/dp/username/g; s/"Distributed Press"/"Your Name"/g' {} +
+find . -type f -exec sed -i '' 's/staticpub\.distributed\.press/yourdomain\.com/g; s/dp/username/g; s/"Distributed Press"/"Your Name"/g' {} +
 ```
 
 Make sure to update the `publicKeyPem` field in the following files with your actual public key from the `.dprc` configuration file:
