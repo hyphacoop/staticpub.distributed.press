@@ -26,7 +26,7 @@
       "@type": "Key",
       "id": "https://staticpub.distributed.press/about.jsonld#main-key",
       "owner": "https://staticpub.distributed.press/about.jsonld",
-      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nYOUR_PUBLIC_KEY_HERE\n-----END PUBLIC KEY-----\n"
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0S7f5QpqnRiAWv3dO5/q\npT0Z2HMqxENGecaAxnxSkViJ9SK5SkC0Gy7WfHpr1T+qOzBURqJM/YRMcLtRyTj9\n3qDsfVB2t7B/CVRx+LL+twQlDjbBNEoFCPJTfrC9Qvj2iHfx3SsqsogamUwULrSk\nMk1G4s6uJB2CBr8AZ7CBgr8LWxI4pUkYtStkmwrDLUXFG0k3mcReZXz7SkAln5Zv\nYC7+/Yws+iBF1/kINMvvdJFngZwghLNBxu59w99I5pSn5SpZkSqIT50pSZOomukc\nmXH8Co8xQvtQy+S0YHJflnGIJf8Vfm/kllspAxiPOtrWeppO70PqfXwEN2EAwLSg\nptcq5iUBAXoqEdLKnmBnjHwv0S2IJMnf9mYsD72Jq8/oV9bkHi1oAkC+H8CkWxub\nvdNIi1+UN/UkRLYtOUJidfHL/QxXdbpeCmij4toa+jlib5o1kz3rs6qegrt197hY\n5Qig4NFNLIghues47JkSfcTRg/DObWIPoxbc/0Gl5k/aov9kF16Qb0AkVWLI+ETS\nGGsmPe+CdCWYo5LTYn9WPwOccM//pem6mlL8aeQQ18gl/ubxWzgUUAcjRAyFdZBx\nRQdXkTJ35bHG9gCfds9u0dYFje3v9DaXuyIUTdCFkd3l+w9cEm4u2a0d1SMtsCvR\nLkj8IQRUN7AMwfgj3KiHWT0CAwEAAQ==\n-----END PUBLIC KEY-----\n"
     }
 }
   
