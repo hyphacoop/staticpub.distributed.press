@@ -1,0 +1,22 @@
+{  
+  "subject": "acct:dp@staticpub.distributed.press",
+  "aliases": [
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://staticpub.distributed.press/about.html"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://staticpub.distributed.press/about.jsonld"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "ipns://staticpub.distributed.press/about-ipns.jsonld"
+    }
+  ]
+}
