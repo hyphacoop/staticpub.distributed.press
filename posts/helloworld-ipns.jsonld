@@ -9,7 +9,7 @@
     }],
     "type": "Note",
     "summary": null,
-    "published": "2023-06-29T17:29:45Z",
+    "published": "2024-12-12T11:11:11Z",
     "url": "ipns://staticpub.distributed.press/helloworld",
     "attributedTo": "ipns://staticpub.distributed.press/about-ipns.jsonld",
     "to": [
@@ -17,9 +17,9 @@
     ],
     "cc": [],
     "sensitive": false,
-    "content": "Hello, Fediverse! This is my first post.",
+    "content": "Hello, Fediverse! This is my first post from DP-CLI.",
     "contentMap": {
-        "en": "Hello, Fediverse! This is my first post."
+        "en": "Hello, Fediverse! This is my first post from DP-CLI."
     },
     "attachment": [],
     "tag": [],
