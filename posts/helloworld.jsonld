@@ -20,9 +20,9 @@
     "atomUri": "https://staticpub.distributed.press/helloworld",
     "inReplyToAtomUri": null,
     "conversation": "tag:staticpub.distributed.press,2024-12-12:objectId=294618:objectType=Conversation",
-    "content": "Hello, Fediverse! This is my first post from DP-CLI.",
+    "content": "Hello, Fediverse! This is my first post.",
     "contentMap": {
-        "en": "Hello, Fediverse! This is my first post from DP-CLI."
+        "en": "Hello, Fediverse! This is my first post."
     },
     "attachment": [],
     "tag": [],

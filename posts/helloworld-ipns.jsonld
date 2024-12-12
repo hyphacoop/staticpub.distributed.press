@@ -17,9 +17,9 @@
     ],
     "cc": [],
     "sensitive": false,
-    "content": "Hello, Fediverse! This is my first post from DP-CLI.",
+    "content": "Hello, Fediverse! This is my first post.",
     "contentMap": {
-        "en": "Hello, Fediverse! This is my first post from DP-CLI."
+        "en": "Hello, Fediverse! This is my first post."
     },
     "attachment": [],
     "tag": [],
